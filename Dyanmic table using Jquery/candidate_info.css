@@ -1,0 +1,45 @@
+body{
+	
+	background-color: #54F;
+    color: white;
+}
+.form-layout{
+	width: 60%;
+	margin: 5% auto 5% auto;
+}
+
+ .add-button{ 
+ 	width: 20%;
+ 	margin: 2% auto 2% 35%;
+ 	color: 
+ }
+ input[type="text"], [type="email"]{
+    margin: 2%;
+ 	width: 80%;
+ 	font-weight: 800;
+ }
+ label{
+ 	margin-left: 2%;
+ }
+ .table-layout{
+ 	width: 60%;
+	margin: 5% auto 5% auto;
+}
+ table{
+ 	width: 100%;
+ }
+ 
+td{
+	text-align: center;
+}
+table, td, th{
+	/*border-collapse: collapse;
+	border: 1px solid black;*/
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+	width: 100%;
+}

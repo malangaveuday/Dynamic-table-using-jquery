@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+	<script type="text/javascript" src="candidate_info.js"></script>
+	<link rel="stylesheet" type="text/css" href="candidate_info.css">
+	<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jQuery.Validate/1.6/jQuery.Validate.min.js"></script>
+</head>
+<body>
+<div class="form-layout">
+<form id="student-info">
+<h2>Student Information</h2>
+
+<input type="text" id="student-name" placeholder="NAME"/>
+
+
+<input type="email" id="student-email" placeholder="EMAIL" required/>
+
+
+<input type="text" id="student-phone" placeholder="PHONE"/>
+
+<input type="text" id="student-company" placeholder="COMPANY"/>
+
+<input type="button" id="submit-info" class="add-button" value="ADD"/>
+
+</form>	
+</div>
+
+<div class="table-layout">
+<h2>Students Information</h2>
+	<table id='candidate-info-table'>
+		<th>NAME</th>
+		<th>EMAIL</th>
+		<th>PHONE</th>
+		<th>COMPANY</th>
+		<th>EDIT</th>
+		<th>DELETE</th>
+	</table>
+
+</div>
+</body>
+</html>		
